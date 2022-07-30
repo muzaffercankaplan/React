@@ -1,0 +1,38 @@
+.container {
+    width: 320px;
+    border: 1px solid var(--color1);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.emptycontainer {
+    width: 260px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+}
+.list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.workDone {
+    cursor: pointer;
+    color: var(--color2);
+    font-size: 18px;
+    opacity: 0.5;
+    /* text-decoration: line-through; */
+}
+
+.doneWork {
+    cursor: pointer;
+    color: var(--color3);
+    font-size: 18px;
+}
+.delete {
+    cursor: pointer;
+    color: var(--color3);
+}
