@@ -9,16 +9,6 @@ const App = () => {
 
   const [task,setTask] =useState([])
   const [filter, setFilter] = useState('all')
-
-  // const handleStatus = (type) => {
-  //   if (type == "active") {
-  //     setFilter("active")
-  //   } else if (type == "completed") {
-  //     setFilter("completed")
-  //   } else {
-  //     setFilter("all")
-  //   }
-  // }
   
   return (
     <div className='app-container'>
